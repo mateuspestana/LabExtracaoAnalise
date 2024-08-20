@@ -8,3 +8,4 @@ scikit-learn
 bertopic
 sentence-transformers
 openpyxl
+pyarrow
