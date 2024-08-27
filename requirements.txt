@@ -7,3 +7,9 @@ wordcloud
 scikit-learn
 openpyxl
 pyarrow
+ipykernel
+html5lib
+lxml
+tqdm
+selenium
+webdriver-manager
