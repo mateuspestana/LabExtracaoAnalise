@@ -17,7 +17,7 @@ options = webdriver.FirefoxOptions()
 driver = webdriver.Firefox(service=FirefoxService(GeckoDriverManager().install()), options=options)
 
 print('Acessando a página do G1...')
-driver.get(url)
+    driver.get(url)
 
 print('Aguardando 3 segundos...')
 time.sleep(3)
@@ -53,7 +53,7 @@ print('Salvando notícias...')
 df = pd.DataFrame(lista_noticias)
 print(df.head())
 print(df.shape)
-df.to_csv('aula9/noticias_g1.csv', index=False)
+df.to_csv('noticias_g1.csv', index=False)
 
 print('Fechando navegador...')
 driver.quit()
