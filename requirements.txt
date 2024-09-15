@@ -13,3 +13,4 @@ lxml
 tqdm
 selenium
 webdriver-manager
+spotipy
